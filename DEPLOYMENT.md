@@ -20,8 +20,8 @@ Render is ideal for hosting Node.js/Express web services.
    - **Start Command**: `node server.js`
    - **Instance Type**: Select **Free**
 5. Click **Advanced** and add the following **Environment Variables**:
-   - `MONGODB_URI` = `mongodb+srv://5860vaibhav_db_user:GlQrFr3zMt5OnY0c@cluster4.9rgghlg.mongodb.net/?appName=Cluster4` *(Or your production Atlas URI)*
-   - `JWT_SECRET` = `hackmatrix_secret_key_12345` *(Or a custom random secure string)*
+    - `MONGODB_URI` = `your_mongodb_atlas_connection_string`
+    - `JWT_SECRET` = `your_jwt_secret_key`
    - `NODE_ENV` = `production`
 6. Click **Create Web Service**. 
 7. Once deployed, copy the **Render URL** (e.g. `https://hackmatrix-backend.onrender.com`).
