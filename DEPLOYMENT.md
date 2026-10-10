@@ -42,7 +42,8 @@ Vercel is the premier platform for static frontend applications.
    - **Build Command**: `npm run build` *(Auto-configured)*
    - **Output Directory**: `dist` *(Auto-configured)*
 5. Open the **Environment Variables** dropdown and add:
-   - **Key**: `VITE_API_URL`
+   - **Key**: `
+   `
    - **Value**: `https://your-backend-url.onrender.com/api` *(Paste your Render URL here, adding `/api` at the end)*
 6. Click **Deploy**.
 
